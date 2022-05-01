@@ -1,0 +1,17 @@
+> library(readxl)
+> Banana_Green_2022 <- read_excel("C:/Users/ELCOT/Desktop/Banana_-_Green_2022.xlsx")
+There were 24 warnings (use warnings() to see them)
+> View(Banana_Green_2022)
+> library(readxl)
+> Banana_Green_2022 <- read_excel("C:/Users/ELCOT/Desktop/Banana_-_Green_2022.xlsx")
+There were 24 warnings (use warnings() to see them)
+> View(Banana_Green_2022)
+
+
+> mean(Banana_Green_2022$modal_price)
+[1] 2456.442
+
+
+> var(Banana_Green_2022$modal_price)
+[1] 2342793
+>
